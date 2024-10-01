@@ -3,7 +3,7 @@ clc; clear;
 a = 170/2/pi; % 螺线参数
 theta = 90/17*pi; % 入螺线的角度参数
 big_circle_radius = 450; % 大圆区域的半径
-for v = 110:0.1:130 % 速度 (cm/s)
+for v = 110:0.1:200 % 速度 (cm/s)
     bool = false;
     dt = 0.1;  % 时间步长
     % total_time = 2000;  % 总时间
